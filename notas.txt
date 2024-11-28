@@ -1,0 +1,35 @@
+Declarations
+------------
+
+Si vamos a crear algo que a ser referenciado en un futuro.
+
+- let
+- const
+- function
+- function *
+- async function
+- async function *
+- export
+- inport
+
+Statements
+-----------
+
+Aquellas palabras reservadas que no son Declarations
+
+- if
+- for
+- else
+- switch
+
+Expressions
+-----------
+
+Cualquier linea de código o fragmento que evalúe en un valor
+Cada vez que el código hace algo o realiza una tarea y puedes
+obtener un valor
+si la porcion de codigo no hace nada, es decir, solo genera una variable o defines algo, no es una expresión, es una declaración
+
+## Operadores
+----------
+### Operadores aritm
