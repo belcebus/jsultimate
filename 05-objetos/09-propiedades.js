@@ -29,3 +29,30 @@ try {
 if ('borrar' in punto){
     punto.borrar();
 }
+
+//listar las propiedades de Punto
+// Object.keys(obj) --> listar propiedades
+// Object.entries(obj) --> listar propiedades con valor
+
+console.log(Object.keys(punto));
+/*
+    [ 'x', 'y', 'borrar' ]
+*/
+
+for ( let key of Object.keys(punto)){
+    console.log(key,":", punto[key]);
+}
+
+//Object.entry
+for ( let entry of Object.entries(punto) ){
+    console.log("entry: ", entry);
+    console.log("type of entry: ", typeof entry);
+    for( let x of Object.keys(entry)){
+        console.log("entry[",x,"] -> ", entry[x]);
+    }
+}
+// iteramos sobre el array con las propiedades con un "for in"
+// esta funcionalidad es relativamente nueva.
+for ( let propiedad in punto ) {
+    console.log(propiedad);
+}
